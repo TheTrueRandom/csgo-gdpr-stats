@@ -1,0 +1,5 @@
+{
+  "player": "PlayerName (optional)",
+  "steamId": "SteamId e.g. 12938723954872395",
+  "steamLoginSecure": "ABC123ABC123 <- login to steamcommunity and copy from page cookie"
+}
