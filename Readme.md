@@ -1,3 +1,5 @@
+## Fetch & Analyze CS:GO GDPR Game Stats
+
 ### Usage
 
 create config.json (copy config_example.json)
