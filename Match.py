@@ -16,9 +16,9 @@ class Match(AutoRepr):
             except InvalidScore:
                 pass
         if len(self.get_scores_for_team(0)) != 5:
-            raise ValueError(f"Coult not find 5 scores for team 0 for match {element}")
+            raise ValueError(f"Could not find 5 scores for team 0 for match {element}")
         if len(self.get_scores_for_team(1)) != 5:
-            raise ValueError(f"Coult not find 5 scores for team 1 for match {element}")
+            raise ValueError(f"Could not find 5 scores for team 1 for match {element}")
 
     def get_score(self, player):
         for score in self.scores:
